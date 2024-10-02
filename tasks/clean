@@ -1,0 +1,1 @@
+flutter clean && flutter pub get && (cd ios && pod install --repo-update && pod update) && flutter build ios --config-only

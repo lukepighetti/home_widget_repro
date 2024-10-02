@@ -1,16 +1,5 @@
 # hw
 
-A new Flutter project.
+After adding a Widget Extension in Xcode and `google_mlkit_barcode_scanner` to dependencies, the builds in Xcode stop working, but continue to work with `flutter run`.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It seems that the widget will not be installed to Simulator unless you disable the dependency and launch the app from xcode.
